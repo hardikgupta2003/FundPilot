@@ -20,15 +20,4 @@ object DashboardModule {
         return RetrofitClient.getInstance().create(DashboardApi::class.java)
     }
 
-    @Provides
-    @Singleton
-    fun provideDashboardService(api: DashboardApi): DashboardService {
-        return DashboardService(api)
-    }
-
-    @Provides
-    @Singleton
-    fun provideDashboardRepository(dashboardService: DashboardService): DashboardRepository {
-        return DashboardRepository(dashboardService)
-    }
 }
