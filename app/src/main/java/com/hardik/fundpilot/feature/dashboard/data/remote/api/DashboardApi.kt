@@ -1,8 +1,6 @@
 package com.hardik.fundpilot.feature.dashboard.data.remote.api
 
-import com.hardik.fundpilot.core.network.ResponseResult
 import com.hardik.fundpilot.feature.dashboard.data.remote.dto.MutualFundResponse
-import com.hardik.fundpilot.feature.dashboard.data.remote.dto.MutualFundsResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -13,5 +11,5 @@ interface DashboardApi {
     fun getMutualFunds(
         @Query("limit") limit : Int,
         @Query("offset") offset : Int,
-    ) : Call<ResponseResult<MutualFundsResponse>>
+    ) : Call<List<MutualFundResponse>>
 }
