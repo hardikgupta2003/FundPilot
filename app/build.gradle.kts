@@ -22,11 +22,16 @@ android {
         versionCode = 1
         versionName = "1.0"
 
+        android.buildFeatures.buildConfig = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
+        debug {
+            buildConfigField("String","BASE_URL", project.findProperty("BASE_URL").toString())
+        }
         release {
+            buildConfigField("String","BASE_URL", project.findProperty("BASE_URL").toString())
             optimization {
                 enable = false
             }
@@ -42,8 +47,12 @@ android {
 }
 
 dependencies {
-    implementation("com.google.dagger:hilt-android:2.60.1")
-    ksp("com.google.dagger:hilt-android-compiler:2.60.1")
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.android.compiler)
+
+    implementation (libs.gson)
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
