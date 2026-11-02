@@ -1,0 +1,327 @@
+{
+  "name": "projects/17259571282009994507",
+  "title": "FundPilot Mobile UI Design",
+  "visibility": "PRIVATE",
+  "createTime": "2026-11-01T11:57:13.328367Z",
+  "updateTime": "2026-11-01T12:36:43.185713Z",
+  "projectType": "TEXT_TO_UI_PRO",
+  "thumbnailScreenshot": {
+    "name": "projects/17259571282009994507/screens/e4fc729a043447b49a1319f8a0db2683/fileEntries/screenshot",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1V7zqiSa7hRFEvrOVYW2MBtlBwapkl76U3KJFgJTQgIkWvwH1xApMGuMxl6sSABHw-NnCPY9xW55nm1iXni0TkY9LuYVi8OCKmBTNt7Vs4Wy_Z8YAjxtFtlOpE8T3wOA9NvdURysMuXGJ8VZ3Uxt_2rj0EbcyicNE6DSawLvvJFWaRVH-r2o1sDdq3CUtKiFmlKsd1Ba8C4OglpScuvZYbP-_-o_zXsCJypjQgO58JyvqGWkkOZFnS4JXg"
+  },
+  "origin": "STITCH",
+  "deviceType": "MOBILE",
+  "designTheme": {
+    "colorMode": "LIGHT",
+    "font": "PLUS_JAKARTA_SANS",
+    "roundness": "ROUND_EIGHT",
+    "customColor": "#087f5b",
+    "headlineFont": "PLUS_JAKARTA_SANS",
+    "bodyFont": "INTER",
+    "labelFont": "INTER",
+    "namedColors": {
+      "on_surface": "#161d1a",
+      "on_surface_variant": "#3e4943",
+      "surface": "#f4fbf6",
+      "on_tertiary_container": "#cdffe5",
+      "secondary": "#006c4c",
+      "on_primary_container": "#cfffe5",
+      "secondary_fixed_dim": "#5ddcaa",
+      "on_secondary_fixed": "#002115",
+      "surface_container_highest": "#dde4df",
+      "surface_tint": "#006c4c",
+      "surface_bright": "#f4fbf6",
+      "surface_container": "#e9efea",
+      "inverse_surface": "#2b322f",
+      "on_secondary": "#ffffff",
+      "surface_container_high": "#e3eae5",
+      "surface_container_lowest": "#ffffff",
+      "inverse_primary": "#78d9af",
+      "surface_dim": "#d5dcd7",
+      "on_primary_fixed": "#002115",
+      "error_container": "#ffdad6",
+      "primary": "#006446",
+      "tertiary_container": "#007f5b",
+      "on_error": "#ffffff",
+      "on_secondary_container": "#007150",
+      "on_tertiary_fixed": "#002115",
+      "on_primary_fixed_variant": "#005139",
+      "inverse_on_surface": "#ecf2ed",
+      "surface_variant": "#dde4df",
+      "background": "#f4fbf6",
+      "outline": "#6e7a73",
+      "tertiary": "#006446",
+      "outline_variant": "#bdc9c1",
+      "tertiary_fixed_dim": "#50dea9",
+      "on_secondary_fixed_variant": "#005139",
+      "on_tertiary": "#ffffff",
+      "primary_fixed": "#94f6ca",
+      "on_primary": "#ffffff",
+      "error": "#ba1a1a",
+      "tertiary_fixed": "#70fbc4",
+      "secondary_container": "#79f6c2",
+      "on_error_container": "#93000a",
+      "primary_container": "#087f5b",
+      "surface_container_low": "#eff5f0",
+      "on_background": "#161d1a",
+      "on_tertiary_fixed_variant": "#005139",
+      "primary_fixed_dim": "#78d9af",
+      "secondary_fixed": "#7cf9c5"
+    },
+    "designMd": "---\nname: FundPilot\ncolors:\n  surface: '#f4fbf6'\n  surface-dim: '#d5dcd7'\n  surface-bright: '#f4fbf6'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#eff5f0'\n  surface-container: '#e9efea'\n  surface-container-high: '#e3eae5'\n  surface-container-highest: '#dde4df'\n  on-surface: '#161d1a'\n  on-surface-variant: '#3e4943'\n  inverse-surface: '#2b322f'\n  inverse-on-surface: '#ecf2ed'\n  outline: '#6e7a73'\n  outline-variant: '#bdc9c1'\n  surface-tint: '#006c4c'\n  primary: '#006446'\n  on-primary: '#ffffff'\n  primary-container: '#087f5b'\n  on-primary-container: '#cfffe5'\n  inverse-primary: '#78d9af'\n  secondary: '#006c4c'\n  on-secondary: '#ffffff'\n  secondary-container: '#79f6c2'\n  on-secondary-container: '#007150'\n  tertiary: '#006446'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#007f5b'\n  on-tertiary-container: '#cdffe5'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#94f6ca'\n  primary-fixed-dim: '#78d9af'\n  on-primary-fixed: '#002115'\n  on-primary-fixed-variant: '#005139'\n  secondary-fixed: '#7cf9c5'\n  secondary-fixed-dim: '#5ddcaa'\n  on-secondary-fixed: '#002115'\n  on-secondary-fixed-variant: '#005139'\n  tertiary-fixed: '#70fbc4'\n  tertiary-fixed-dim: '#50dea9'\n  on-tertiary-fixed: '#002115'\n  on-tertiary-fixed-variant: '#005139'\n  background: '#f4fbf6'\n  on-background: '#161d1a'\n  surface-variant: '#dde4df'\ntypography:\n  display-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 3rem\n    fontWeight: '700'\n    lineHeight: 3.5rem\n    letterSpacing: -0.02em\n  display-lg-mobile:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 2.25rem\n    fontWeight: '700'\n    lineHeight: 2.75rem\n    letterSpacing: -0.02em\n  headline-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 2rem\n    fontWeight: '700'\n    lineHeight: 2.5rem\n    letterSpacing: -0.015em\n  headline-lg-mobile:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 1.75rem\n    fontWeight: '700'\n    lineHeight: 2.25rem\n    letterSpacing: -0.015em\n  headline-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 1.5rem\n    fontWeight: '600'\n    lineHeight: 2rem\n    letterSpacing: -0.01em\n  headline-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 1.25rem\n    fontWeight: '600'\n    lineHeight: 1.75rem\n    letterSpacing: 0em\n  title-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 1.125rem\n    fontWeight: '600'\n    lineHeight: 1.5rem\n    letterSpacing: 0em\n  title-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 1rem\n    fontWeight: '600'\n    lineHeight: 1.375rem\n    letterSpacing: 0.005em\n  title-sm:\n    fontFamily: Inter\n    fontSize: 0.875rem\n    fontWeight: '600'\n    lineHeight: 1.25rem\n    letterSpacing: 0.005em\n  body-lg:\n    fontFamily: Inter\n    fontSize: 1rem\n    fontWeight: '400'\n    lineHeight: 1.5rem\n    letterSpacing: 0.01em\n  body-md:\n    fontFamily: Inter\n    fontSize: 0.875rem\n    fontWeight: '400'\n    lineHeight: 1.375rem\n    letterSpacing: 0.01em\n  body-sm:\n    fontFamily: Inter\n    fontSize: 0.75rem\n    fontWeight: '400'\n    lineHeight: 1.125rem\n    letterSpacing: 0.015em\n  label-lg:\n    fontFamily: Inter\n    fontSize: 0.875rem\n    fontWeight: '600'\n    lineHeight: 1.25rem\n    letterSpacing: 0.01em\n  label-md:\n    fontFamily: Inter\n    fontSize: 0.75rem\n    fontWeight: '600'\n    lineHeight: 1rem\n    letterSpacing: 0.02em\n  label-sm:\n    fontFamily: Inter\n    fontSize: 0.6875rem\n    fontWeight: '500'\n    lineHeight: 0.875rem\n    letterSpacing: 0.025em\n  metric-currency:\n    fontFamily: Inter\n    fontSize: 1.25rem\n    fontWeight: '700'\n    lineHeight: 1.5rem\n    letterSpacing: -0.01em\nrounded:\n  sm: 0.25rem\n  DEFAULT: 0.5rem\n  md: 0.75rem\n  lg: 1rem\n  xl: 1.5rem\n  full: 9999px\nspacing:\n  gutter: 1rem\n  gutter-sm: 0.75rem\n  gutter-lg: 1.5rem\n  margin: 1rem\n  margin-sm: 0.75rem\n  margin-lg: 1.5rem\n  space-2xs: 0.125rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 0.75rem\n  space-base: 1rem\n  space-lg: 1.25rem\n  space-xl: 1.5rem\n  space-2xl: 2rem\n  space-3xl: 3rem\n---\n\n## Brand & Style\n\nThis design system establishes an authoritative, dependable, and highly accessible financial interface tailored for retail investors navigating Indian mutual funds, systematic investment plans (SIPs), and wealth management. The brand identity balances institutional trust with modern digital agility, projecting calm precision through balanced emerald tones and approachable geometric forms.\n\n### Brand Personality & Emotional Impact\n- **Trustworthy & Prudent:** Evokes institutional integrity without looking bureaucratic. The visual cues foster investor confidence across volatile market movements.\n- **Approachable Intelligence:** Demystifies complex metrics (such as NAV history, expense ratios, alpha, and beta ratios) using human-centric visual summaries and lucid layout hierarchies.\n- **Precise & Orderly:** Financial decisions require immaculate clarity. The visual structure treats tabular figures, currency symbols, and gain/loss indicators with rigorous geometric order.\n\n### Design Movement: Modern Material Fintech\nThe system is built upon canonical Material Design 3 (M3) foundations adapted for high-density fintech workflows. It leverages tonal surface containers, refined micro-elevations, pill-shaped interactive anchors, and dual-surface contrast (crisp `#FFFFFF` cards over warm `#F8F9FA` foundational canvases). The visual language avoids heavy decorative skeuomorphism in favor of clear data communication, tactile micro-states, and high-contrast numerical readability.\n\n## Colors\n\nThe color palette establishes an authentic financial hierarchy rooted in natural emerald and teal values, avoiding neon saturations in favor of grounded authority.\n\n### Semantic Application\n- **Primary (`#087F5B`):** Governs primary actions, key active navigation points, selected chips, fund category primary labels, and strong identity highlights.\n- **Secondary (`#0CA678`) & Tertiary (`#12B886`):** Applied to active toggles, sparkline fills, progressive indicators, and sub-metric performance badges.\n- **Surfaces:** In Light mode, foundational screens use warm off-white (`#F8F9FA`) to reduce ocular fatigue, while interactive and card layers rely on clean pure white (`#FFFFFF`) to establish crisp contrast. In Dark mode, surfaces tier from deep charcoal (`#121417`) through container layers (`#1A1D21`) defined by structural border lines (`#2A2E35`).\n- **Financial Status Colors:** Positive gains and returns strictly map to `#087F5B` (light) / `#20C997` (dark) with corresponding low-saturation container tints for pill fills. Negative drawdowns map to red (`#FA5252` light / `#FF6B6B` dark), ensuring standard financial clarity.\n- **Data Visualizations:** Fund NAV curves use the primary emerald trajectory with light gradient fills below the curve, while comparative indices (NIFTY 50, S&P BSE Sensex) map to calm structural indigo (`#4C6EF5`).\n\n## Typography\n\nThe typographic system utilizes a dual-font architecture: **Plus Jakarta Sans** provides a modern, geometric, and friendly cadence for headlines and portfolio greetings, while **Inter** delivers neutral, highly legible performance across complex data tables, fund names, and body text.\n\n### Tabular Figures & Indian Rupee (INR) Precision\n- All instances of monetary values (`\u20b9`), NAV values, percentage changes, and annualized returns (CAGR / XIRR) **must** enable tabular figures via OpenType features: `font-feature-settings: \"tnum\" 1, \"cv05\" 1`. This aligns decimals and integer columns across comparative fund lists.\n- Currency symbols are kept at equal visual weight to the following integer values rather than superscripts, preventing visual jitter across dense list views.\n- Font scales are strictly optimized for standard 360px\u2013428px mobile viewports, using explicit mobile headline overrides to avoid unintended text wraps in fund names.\n\n## Layout & Spacing\n\nThe layout system is founded on a 4px baseline sub-grid coupled with an 8px macro component cadence.\n\n### Screen Adaptations & Grid\n- **Mobile Handheld (360px \u2013 480px):** Single-column layout with a 4-column internal flex structure. Default outer margin is `1rem` (16px) with an interior card gutter of `0.75rem` (12px) to maximize horizontal data room for financial lists and sparklines.\n- **Tablet & Foldable (481px \u2013 840px):** 8-column layout with `1.5rem` (24px) outer margin and `1rem` (16px) gutters. Cards reflow into two-column comparison panels.\n- **Desktop Research Console (>840px):** 12-column layout capped at a maximum content width of 1200px, centering analytics dashboards, filters, and fund fact sheets.\n\n### Rhythmic Padding Rules\n- **Component Interiors:** Small chips and status badges strictly use `0.25rem` vertical by `0.5rem` horizontal padding. Card modules follow an internal padding rhythm of `1rem` to `1.25rem`.\n- **Bottom Clearance:** Screens ensure an automated bottom spacing offset of at least `5rem` (80px) to clear the fixed Material 3 bottom navigation bar and any floating contextual action bars (e.g., \"Invest Now / Start SIP\").\n\n## Elevation & Depth\n\nVisual hierarchy is communicated through a pairing of subtle M3 tonal surfaces and warm, ambient shadows. Hard edges and heavy drop-shadows are avoided to maintain high clarity across numeric values.\n\n### Tonal Hierarchy\n- **Level 0 (Canvas Base):** Flat `#F8F9FA` (light) / `#121417` (dark). Hosts primary section titles and non-interactive backgrounds.\n- **Level 1 (Card / Content Container):** Elevated surface `#FFFFFF` (light) / `#1A1D21` (dark). Uses low-opacity ghost borders (`1px solid #DEE2E6` light / `#2A2E35` dark) combined with an ambient shadow: `box-shadow: 0 1px 3px rgba(8, 127, 91, 0.04), 0 4px 12px rgba(0, 0, 0, 0.03)`.\n- **Level 2 (Interactive Floating Elements):** Filter chips, tab switches, and hover/press states. Utilizes `box-shadow: 0 4px 16px rgba(8, 127, 91, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04)`.\n- **Level 3 (Modals, Bottom Sheets & Sticky Bars):** Sticky action bars, fund comparison sheets, and SIP calculation drawer sheets. Features a softened top shadow: `box-shadow: 0 -4px 24px rgba(18, 20, 23, 0.08)` along with surface background tints.\n- **Dark Mode Adjustment:** Shadows in dark mode are replaced primarily by surface layer shifts (`#16191D` up to `#23272C`) combined with refined 1px outline definitions (`#2A2E35`).\n\n## Shapes\n\nThe geometric framework matches roundedness level `2`, balancing ergonomic friendly curves with structural rigor.\n\n### Scale Application\n- **Base Geometry (`rounded` - 0.5rem / 8px):** Applied to badges, table cell containers, financial alert callouts, and sparkline viewports.\n- **Medium Geometry (`rounded-lg` - 1rem / 16px):** Applied to mutual fund discovery cards, metric overview modules, input fields, and search dialogs.\n- **Large Geometry (`rounded-xl` - 1.25rem to 1.5rem / 20px to 24px):** Applied to primary card containers, comparison summary modules, and bottom sheet sheet-top corners.\n- **Full Pill (`rounded-full` - 9999px):** Strictly reserved for buttons, filter chips, category pills, and floating action anchors to provide clear affordance against rectangular card backgrounds.\n\n## Components\n\n### Buttons\n- **Primary Button (M3 Pill):** Fully rounded (`border-radius: 9999px`), minimum height 48px, background `#087F5B`, text `#FFFFFF`, bold `label-lg`. Padding: `0.75rem 1.5rem`. Used for \"Invest Now\", \"Start SIP\", or \"Apply Filter\".\n- **Tonal / Secondary Button:** Full pill, background `primary-container` (`#E6F4EA`), text `#034D35`. Used for \"Add to Watchlist\" or \"Compare\".\n- **Outlined Button:** Full pill, 1px border `#DEE2E6`, text `#1A1D20`. Used for secondary research toggles.\n\n### Chips & Filter Pills\n- Fully rounded pills (`border-radius: 9999px`), height 32px or 36px, horizontal padding `0.75rem`.\n- **Unselected:** Background `#FFFFFF` (light) / `#1A1D21` (dark), border 1px solid `#DEE2E6` (light) / `#2A2E35` (dark), text `body-sm` (`#495057`).\n- **Selected:** Background `#E6F4EA`, border 1px solid `#087F5B`, text `#087F5B` with a leading 16px check icon. Used for time horizons (`1Y`, `3Y`, `5Y`, `MAX`) and fund categories (`Large Cap`, `Flexi Cap`, `ELSS Tax Saver`).\n\n### Mutual Fund Cards\n- Card radius: `1rem` (16px) or `1.25rem` (20px). Background `#FFFFFF` (light) / `#1A1D21` (dark), border 1px solid `#DEE2E6` (light) / `#2A2E35` (dark).\n- Structure:\n  1. Top header row: AMC fund house logo (36px squircle), fund name (`title-md`), category badge (e.g., \"Equity \u2022 Mid Cap\"), and riskometer indicator (\"Very High Risk\").\n  2. Metric summary grid: Three-column layout displaying NAV (`\u20b9`), 3Y Annualized Return (`%`), and Rating (M3 5-star rating icon).\n  3. Mini sparkline (height 36px) tracking rolling 1Y NAV trajectory.\n  4. Bottom row: Minimum SIP amount (`\u20b9500/mo`) and quick action tap trigger.\n\n### Stat Badges & Return Metrics\n- Height 24px, radius `0.375rem` (6px) or pill.\n- **Positive Returns:** Background `#E6F4EA`, text `#087F5B`, font `label-md` with leading upward arrow `\u2191 +18.4%`.\n- **Negative Returns:** Background `#FFE3E3`, text `#FA5252`, font `label-md` with leading downward arrow `\u2193 -2.1%`.\n\n### Input Fields & Search Bars\n- Radius `1rem` (16px) for search bars, height 48px to 52px. Leading emerald search icon, placeholder text in `body-md` (`#717874`).\n- SIP Amount Input: Prominent INR (`\u20b9`) prefix locked into tabular numeric display with automated thousand separators (Indian numbering: `1,00,000`).\n\n### Tabs & Bottom Navigation Bar\n- **Tab Bars:** Underline style with an emerald indicator bar (`height: 3px`, rounded) or tonal pill tabs for switcher views (SIP vs Lumpsum).\n- **M3 Bottom Navigation Bar:** Height 64px to 72px, fixed bottom, background `#FFFFFF` (light) / `#16191D` (dark), top border 1px solid `#DEE2E6` (light) / `#2A2E35` (dark). Active item uses a horizontal pill background indicator (`#E6F4EA`) behind the icon with primary emerald coloring.",
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#087f5b",
+    "overrideSecondaryColor": "#0ca678",
+    "overrideTertiaryColor": "#12b886",
+    "overrideNeutralColor": "#717874",
+    "spacingScale": 2,
+    "typography": {
+      "title-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "1.125rem",
+        "fontWeight": "600",
+        "lineHeight": "1.5rem",
+        "letterSpacing": "0em"
+      },
+      "headline-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "1.5rem",
+        "fontWeight": "600",
+        "lineHeight": "2rem",
+        "letterSpacing": "-0.01em"
+      },
+      "label-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "0.875rem",
+        "fontWeight": "600",
+        "lineHeight": "1.25rem",
+        "letterSpacing": "0.01em"
+      },
+      "display-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "3rem",
+        "fontWeight": "700",
+        "lineHeight": "3.5rem",
+        "letterSpacing": "-0.02em"
+      },
+      "headline-sm": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "1.25rem",
+        "fontWeight": "600",
+        "lineHeight": "1.75rem",
+        "letterSpacing": "0em"
+      },
+      "title-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "1rem",
+        "fontWeight": "600",
+        "lineHeight": "1.375rem",
+        "letterSpacing": "0.005em"
+      },
+      "label-md": {
+        "fontFamily": "Inter",
+        "fontSize": "0.75rem",
+        "fontWeight": "600",
+        "lineHeight": "1rem",
+        "letterSpacing": "0.02em"
+      },
+      "label-sm": {
+        "fontFamily": "Inter",
+        "fontSize": "0.6875rem",
+        "fontWeight": "500",
+        "lineHeight": "0.875rem",
+        "letterSpacing": "0.025em"
+      },
+      "headline-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "2rem",
+        "fontWeight": "700",
+        "lineHeight": "2.5rem",
+        "letterSpacing": "-0.015em"
+      },
+      "display-lg-mobile": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "2.25rem",
+        "fontWeight": "700",
+        "lineHeight": "2.75rem",
+        "letterSpacing": "-0.02em"
+      },
+      "title-sm": {
+        "fontFamily": "Inter",
+        "fontSize": "0.875rem",
+        "fontWeight": "600",
+        "lineHeight": "1.25rem",
+        "letterSpacing": "0.005em"
+      },
+      "metric-currency": {
+        "fontFamily": "Inter",
+        "fontSize": "1.25rem",
+        "fontWeight": "700",
+        "lineHeight": "1.5rem",
+        "letterSpacing": "-0.01em"
+      },
+      "headline-lg-mobile": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "1.75rem",
+        "fontWeight": "700",
+        "lineHeight": "2.25rem",
+        "letterSpacing": "-0.015em"
+      },
+      "body-md": {
+        "fontFamily": "Inter",
+        "fontSize": "0.875rem",
+        "fontWeight": "400",
+        "lineHeight": "1.375rem",
+        "letterSpacing": "0.01em"
+      },
+      "body-sm": {
+        "fontFamily": "Inter",
+        "fontSize": "0.75rem",
+        "fontWeight": "400",
+        "lineHeight": "1.125rem",
+        "letterSpacing": "0.015em"
+      },
+      "body-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "1rem",
+        "fontWeight": "400",
+        "lineHeight": "1.5rem",
+        "letterSpacing": "0.01em"
+      }
+    },
+    "spacing": {
+      "gutter-lg": "1.5rem",
+      "space-2xs": "0.125rem",
+      "space-xs": "0.25rem",
+      "margin-sm": "0.75rem",
+      "margin": "1rem",
+      "space-xl": "1.5rem",
+      "space-3xl": "3rem",
+      "space-md": "0.75rem",
+      "gutter-sm": "0.75rem",
+      "space-sm": "0.5rem",
+      "space-lg": "1.25rem",
+      "margin-lg": "1.5rem",
+      "space-base": "1rem",
+      "space-2xl": "2rem",
+      "gutter": "1rem"
+    },
+    "headlineFontFamily": "Plus Jakarta Sans",
+    "bodyFontFamily": "Inter",
+    "labelFontFamily": "Inter"
+  },
+  "screenInstances": [
+    {
+      "id": "0524aa18ec5241de981dbd981707f8f3",
+      "sourceScreen": "projects/17259571282009994507/screens/0524aa18ec5241de981dbd981707f8f3",
+      "x": 1932,
+      "width": 390,
+      "height": 2496,
+      "label": "Fund Details Screen"
+    },
+    {
+      "id": "1bf909f1751a480bab371ed9216b22b2",
+      "sourceScreen": "projects/17259571282009994507/screens/1bf909f1751a480bab371ed9216b22b2",
+      "x": 908,
+      "y": 4326,
+      "width": 390,
+      "height": 1230,
+      "label": "Wishlist - Saved Schemes"
+    },
+    {
+      "id": "294417f520e447259a4e6d32d030af1f",
+      "sourceScreen": "projects/17259571282009994507/screens/294417f520e447259a4e6d32d030af1f",
+      "x": 1023,
+      "y": -116,
+      "width": 390,
+      "height": 1832,
+      "label": "Home Dashboard"
+    },
+    {
+      "id": "50ef181f76a44f4890c7c1e1bf1bfa09",
+      "sourceScreen": "projects/17259571282009994507/screens/50ef181f76a44f4890c7c1e1bf1bfa09",
+      "x": 908,
+      "y": 2752,
+      "width": 390,
+      "height": 1064,
+      "label": "No Data Found"
+    },
+    {
+      "id": "5c7e1c86715a4ff89a0002f03b80f5ad",
+      "sourceScreen": "projects/17259571282009994507/screens/5c7e1c86715a4ff89a0002f03b80f5ad",
+      "y": 2752,
+      "width": 390,
+      "height": 1318,
+      "label": "Home - Minimal Phase 1"
+    },
+    {
+      "id": "80c21617af2d4c4ea24dd7190cafeebd",
+      "sourceScreen": "projects/17259571282009994507/screens/80c21617af2d4c4ea24dd7190cafeebd",
+      "x": 454,
+      "y": 4326,
+      "width": 390,
+      "height": 2017,
+      "label": "All Schemes - Fund Listing"
+    },
+    {
+      "id": "929556931dc94ca8b98e7c229a1fd698",
+      "sourceScreen": "projects/17259571282009994507/screens/929556931dc94ca8b98e7c229a1fd698",
+      "x": 454,
+      "y": 2752,
+      "width": 390,
+      "height": 1160,
+      "label": "Explore - Mid Cap Focus"
+    },
+    {
+      "id": "9ddd54304e5c4ae2b01183537c5e0fde",
+      "sourceScreen": "projects/17259571282009994507/screens/9ddd54304e5c4ae2b01183537c5e0fde",
+      "x": 1478,
+      "width": 390,
+      "height": 2006,
+      "label": "Explore Funds"
+    },
+    {
+      "id": "a59e8720bf624428ab8ed50e0736c67c",
+      "sourceScreen": "projects/17259571282009994507/screens/a59e8720bf624428ab8ed50e0736c67c",
+      "y": 4326,
+      "width": 390,
+      "height": 1054,
+      "label": "Home - Category Grid & Recents"
+    },
+    {
+      "id": "assets_063443a10cdf435d8a383379bebf702a",
+      "width": 960,
+      "height": 540,
+      "sourceAsset": "assets/063443a10cdf435d8a383379bebf702a",
+      "type": "DESIGN_SYSTEM_INSTANCE"
+    },
+    {
+      "id": "dd3c088a3d3e485ca6af469956e9fa3f",
+      "sourceScreen": "projects/17259571282009994507/screens/dd3c088a3d3e485ca6af469956e9fa3f",
+      "y": 6911,
+      "width": 390,
+      "height": 2991,
+      "label": "Fund Details Screen"
+    },
+    {
+      "id": "e4fc729a043447b49a1319f8a0db2683",
+      "sourceScreen": "projects/17259571282009994507/screens/e4fc729a043447b49a1319f8a0db2683",
+      "x": 2386,
+      "width": 390,
+      "height": 1568,
+      "label": "Compare Funds Screen"
+    },
+    {
+      "id": "ef4afe4672644b718e5f13ea4a8981da",
+      "sourceScreen": "projects/17259571282009994507/screens/ef4afe4672644b718e5f13ea4a8981da",
+      "x": 1362,
+      "y": 2752,
+      "width": 390,
+      "height": 884,
+      "label": "No Internet Connection"
+    }
+  ],
+  "metadata": {
+    "userRole": "OWNER"
+  }
+}

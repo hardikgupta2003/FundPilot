@@ -8,35 +8,95 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = EmeraldPrimaryDark,
+    onPrimary = EmeraldOnPrimaryDark,
+    primaryContainer = EmeraldPrimaryContainerDark,
+    onPrimaryContainer = EmeraldOnPrimaryContainerDark,
+    secondary = EmeraldSecondary,
+    onSecondary = EmeraldOnSecondary,
+    secondaryContainer = EmeraldSecondaryContainer,
+    onSecondaryContainer = EmeraldOnSecondaryContainer,
+    tertiary = EmeraldTertiary,
+    onTertiary = EmeraldOnTertiary,
+    tertiaryContainer = EmeraldTertiaryContainer,
+    onTertiaryContainer = EmeraldOnTertiaryContainer,
+    background = DarkBackground,
+    onBackground = DarkOnBackground,
+    surface = DarkSurface,
+    onSurface = DarkOnSurface,
+    surfaceVariant = DarkSurfaceContainer,
+    onSurfaceVariant = DarkOnSurfaceVariant,
+    surfaceContainerLowest = DarkSurfaceContainerLowest,
+    surfaceContainerLow = DarkSurfaceContainerLow,
+    surfaceContainer = DarkSurfaceContainer,
+    surfaceContainerHigh = DarkSurfaceContainerHigh,
+    surfaceContainerHighest = DarkSurfaceContainerHighest,
+    outline = DarkOutline,
+    outlineVariant = DarkOutlineVariant,
+    error = LossNegativeDark,
+    onError = DarkBackground,
+    errorContainer = LossNegativeContainerDark,
+    onErrorContainer = OnLossNegativeContainerDark
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = EmeraldPrimary,
+    onPrimary = EmeraldOnPrimary,
+    primaryContainer = EmeraldPrimaryContainer,
+    onPrimaryContainer = EmeraldOnPrimaryContainer,
+    secondary = EmeraldSecondary,
+    onSecondary = EmeraldOnSecondary,
+    secondaryContainer = EmeraldSecondaryContainer,
+    onSecondaryContainer = EmeraldOnSecondaryContainer,
+    tertiary = EmeraldTertiary,
+    onTertiary = EmeraldOnTertiary,
+    tertiaryContainer = EmeraldTertiaryContainer,
+    onTertiaryContainer = EmeraldOnTertiaryContainer,
+    background = LightBackground,
+    onBackground = LightOnBackground,
+    surface = LightSurface,
+    onSurface = LightOnSurface,
+    surfaceVariant = LightSurfaceContainerHighest,
+    onSurfaceVariant = LightOnSurfaceVariant,
+    surfaceContainerLowest = LightSurfaceContainerLowest,
+    surfaceContainerLow = LightSurfaceContainerLow,
+    surfaceContainer = LightSurfaceContainer,
+    surfaceContainerHigh = LightSurfaceContainerHigh,
+    surfaceContainerHighest = LightSurfaceContainerHighest,
+    outline = LightOutline,
+    outlineVariant = LightOutlineVariant,
+    error = LossNegative,
+    onError = EmeraldOnPrimary,
+    errorContainer = LossNegativeContainer,
+    onErrorContainer = OnLossNegativeContainer
+)
 
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+private val LightFinancialColors = ExtendedFinancialColors(
+    gainPositive = GainPositive,
+    gainPositiveContainer = GainPositiveContainer,
+    onGainPositiveContainer = OnGainPositiveContainer,
+    lossNegative = LossNegative,
+    lossNegativeContainer = LossNegativeContainer,
+    onLossNegativeContainer = OnLossNegativeContainer
+)
+
+private val DarkFinancialColors = ExtendedFinancialColors(
+    gainPositive = GainPositiveDark,
+    gainPositiveContainer = GainPositiveContainerDark,
+    onGainPositiveContainer = OnGainPositiveContainerDark,
+    lossNegative = LossNegativeDark,
+    lossNegativeContainer = LossNegativeContainerDark,
+    onLossNegativeContainer = OnLossNegativeContainerDark
 )
 
 @Composable
 fun FundPilotTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false, // Default to false to preserve brand identity colors
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
@@ -49,9 +109,15 @@ fun FundPilotTheme(
         else -> LightColorScheme
     }
 
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content
-    )
+    val financialColors = if (darkTheme) DarkFinancialColors else LightFinancialColors
+
+    CompositionLocalProvider(
+        LocalExtendedFinancialColors provides financialColors
+    ) {
+        MaterialTheme(
+            colorScheme = colorScheme,
+            typography = Typography,
+            content = content
+        )
+    }
 }
