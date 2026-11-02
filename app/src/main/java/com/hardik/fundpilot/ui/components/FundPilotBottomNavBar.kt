@@ -2,6 +2,7 @@ package com.hardik.fundpilot.ui.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -137,13 +138,14 @@ fun FundPilotBottomNavBar(
         NavigationBar(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(68.dp),
+                .height(90.dp),
             containerColor = MaterialTheme.colorScheme.surface,
             contentColor = MaterialTheme.colorScheme.onSurfaceVariant
         ) {
             items.forEach { item ->
                 val isSelected = selectedRoute.equals(item.title, ignoreCase = true)
                 NavigationBarItem(
+                    modifier = Modifier,
                     selected = isSelected,
                     onClick = { onRouteSelected(item.title) },
                     icon = {

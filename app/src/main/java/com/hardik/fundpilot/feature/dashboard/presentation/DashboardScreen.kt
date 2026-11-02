@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 
 
 @Composable
-fun DashboardScreen(viewModel : DashboardViewModel){
+fun DashboardScreen(viewModel : DashboardViewModel, onNavigateToDetail : (String, String) -> Unit){
 
     Box(modifier = Modifier.size(50.dp), contentAlignment = Alignment.Center){
         Text(text = "Dashboard", modifier = Modifier.clickable{
